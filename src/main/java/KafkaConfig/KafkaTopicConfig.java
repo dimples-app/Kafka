@@ -8,7 +8,7 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     public NewTopic createNewTopic() {
-        return TopicBuilder.name("First Topic")
+        return TopicBuilder.name("DimplesApp")
                 .build();
     }
 }
